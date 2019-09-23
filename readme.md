@@ -12,4 +12,5 @@ git push -u origin master - push the git
 Heroku --version - update and check version
 Heloku login - authenticate
 Heroku create - create application
+git push heroku master - need to run this before the app runs on Heroku
 Heroku logs - show logs for troubleshooting
