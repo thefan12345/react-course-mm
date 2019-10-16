@@ -1,5 +1,5 @@
 Arguments: 
-  Z:\Program Files\nodejs\node.exe Z:\Users\MM\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add numeral@2.0.6
+  Z:\Program Files\nodejs\node.exe Z:\Users\MM\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add firebase@4.2.0
 
 PATH: 
   Z:\Python27\;Z:\Python27\Scripts;Z:\Program Files (x86)\Common Files\Oracle\Java\javapath;Z:\Program Files (x86)\Common Files\Oracle\Java;Z:\Perl64\site\bin;Z:\Perl64\bin;Z:\Program Files (x86)\AMD APP\bin\x86_64;Z:\Program Files (x86)\AMD APP\bin\x86;Z:\Program Files\Common Files\Microsoft Shared\Windows Live;Z:\Windows\system32;Z:\Windows;Z:\Windows\System32\Wbem;Z:\Windows\System32\WindowsPowerShell\v1.0\;Z:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;Z:\Program Files (x86)\Common Files\HP\Digital Imaging\bin;Z:\Program Files (x86)\HP\Digital Imaging\bin\;Z:\Program Files (x86)\HP\Digital Imaging\bin\Qt\Qt 4.3.3;Z:\Program Files\Java\jdk1.7.0_07\bin;Z:\Program Files (x86)\CineForm\Tools;Z:\Program Files (x86)\Skype\Phone\;Z:\Program Files (x86)\QuickTime\QTSystem\;D:\Program Files\WIDCOMM\Bluetooth Software\;D:\Program Files\WIDCOMM\Bluetooth Software\syswow64;Z:\Program Files\nodejs\;Z:\ProgramData\chocolatey\bin;Z:\Program Files\Git\cmd;Z:\Program Files\Common Files\Microsoft Shared\Windows Live;Z:\Program Files\JetBrains\IntelliJ IDEA 2019.1\bin;Z:\Program Files\JetBrains\PyCharm 2019.1.1\bin;Z:\Users\MM\AppData\Local\Programs\Microsoft VS Code\bin;Z:\Users\MM\AppData\Roaming\npm;Z:\Users\MM\AppData\Local\GitHubDesktop\bin;d:\Program Files\heroku\bin
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'D:\trinity\React Course Projects\expensify-app\node_modules\acorn-globals\node_modules\.bin'
+  Error: EPERM: operation not permitted, unlink 'D:\trinity\React Course Projects\expensify-app\node_modules\acorn-dynamic-import\node_modules\.bin'
 
 npm manifest: 
   {
@@ -45,6 +45,7 @@ npm manifest:
       "moment": "2.18.1",
       "node-sass": "^4.12.0",
       "normalize.css": "7.0.0",
+      "numeral": "2.0.6",
       "raf": "3.3.2",
       "react": "16.0.0",
       "react-addons-shallow-compare": "15.6.0",
@@ -5651,6 +5652,11 @@ Lockfile:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
     integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
+  
+  numeral@2.0.6:
+    version "2.0.6"
+    resolved "https://registry.yarnpkg.com/numeral/-/numeral-2.0.6.tgz#4ad080936d443c2561aed9f2197efffe25f4e506"
+    integrity sha1-StCAk21EPCVhrtnyGX7//iX05QY=
   
   "nwmatcher@>= 1.3.9 < 2.0.0":
     version "1.4.4"
